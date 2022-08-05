@@ -1,0 +1,26 @@
+/* For all the objects */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: Helvetica, sans-serif;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+      align-items: center;
+    justify-content: center;
+  }
+#image-comparison-slider{
+    width:80vw;
+    overflow: hidden;
+}
+
+#image-comparison-slider img{
+    display:block;
+    width:100%;
+    height: auto;
+}
